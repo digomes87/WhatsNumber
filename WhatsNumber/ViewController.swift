@@ -9,12 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var ask = Int(arc4random_uniform(5))
+    
     @IBOutlet var textLabel: UILabel!
     @IBOutlet var possibleAswer: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print(ask)
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +28,11 @@ class ViewController: UIViewController {
 
     @IBAction func Button(sender: AnyObject) {
         
+     //   var guess = possibleAswer.text
+       // var cGuess = String(ask)
+
+        
+    
     }
 
 }
