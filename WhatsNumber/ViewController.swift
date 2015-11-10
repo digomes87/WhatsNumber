@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var textLabel: UILabel!
+    @IBOutlet var possibleAswer: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func Button(sender: AnyObject) {
+        
+    }
 
 }
 
