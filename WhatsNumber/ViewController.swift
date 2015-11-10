@@ -28,8 +28,22 @@ class ViewController: UIViewController {
 
     @IBAction func Button(sender: AnyObject) {
         
-     //   var guess = possibleAswer.text
-       // var cGuess = String(ask)
+        let guess = possibleAswer.text
+        let cGuess = String(ask)
+        
+        possibleAswer.text = ""
+        
+        
+        if guess == cGuess{
+        
+            textLabel.text = "Acertou Muleke medonho"
+            textLabel.textColor = UIColor.greenColor()
+            
+        }else {
+            
+            textLabel.text = "Error,errou errou,tenta de novo !!"
+            textLabel.textColor = UIColor.redColor()
+        }
 
         
     
