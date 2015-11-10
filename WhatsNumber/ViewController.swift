@@ -41,7 +41,7 @@ class ViewController: UIViewController {
             
         }else {
             
-            textLabel.text = "Error,errou errou,tenta de novo !!"
+            textLabel.text = "Error,errou,tenta de novo !!"
             textLabel.textColor = UIColor.redColor()
         }
 
